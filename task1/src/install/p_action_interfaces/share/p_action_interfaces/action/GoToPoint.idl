@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from p_action_interfaces/action/GoToPoint.action
+// generated code does not contain a copyright notice
+
+#include "turtlesim/msg/Pose.idl"
+
+module p_action_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GoToPoint_Goal {
+      float x;
+
+      float y;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct GoToPoint_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct GoToPoint_Feedback {
+      turtlesim::msg::Pose pose;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/hans/ros2/task1/build/p_interface/ament_cmake_core/p_interfaceConfig.cmake

@@ -1,0 +1,461 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7172bc1a9630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7172bc1a9120>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7172bc1a9120>>)
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hans/ros2/task1/src'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rov) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_rov' with type 'ros.ament_python' and name 'autonomous_rov'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_example) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'p_action_example' with type 'ros.ament_python' and name 'p_action_example'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(p_action_interfaces) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'p_action_interfaces' with type 'ros.ament_cmake' and name 'p_action_interfaces'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(p_controller) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'p_controller' with type 'ros.ament_python' and name 'p_controller'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(p_interfaces) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'p_interfaces' with type 'ros.ament_cmake' and name 'p_interfaces'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(ping_sonar_ros-master) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'ping_sonar_ros-master' with type 'ros.ament_python' and name 'ping_sonar_ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(ttbot_square) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'ttbot_square' with type 'ros.ament_python' and name 'ttbot_square'
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/hans/ros2/task1/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'autonomous_rov' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_rov' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/autonomous_rov', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/autonomous_rov', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/autonomous_rov', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'p_action_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/p_action_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/p_action_example', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/p_action_example', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'p_action_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'p_action_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/p_action_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/p_action_interfaces', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/p_action_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'p_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'p_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/p_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/p_interfaces', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/p_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ping_sonar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'ping_sonar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/ping_sonar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/ping_sonar_ros', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/ping_sonar_ros-master', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'ttbot_square' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'ttbot_square' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/ttbot_square', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/ttbot_square', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/ttbot_square', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'p_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'p_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hans/ros2/task1/src/build/p_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hans/ros2/task1/src/install/p_controller', 'merge_install': False, 'path': '/home/hans/ros2/task1/src/p_controller', 'symlink_install': False, 'test_result_base': None}
+[0.427s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.428s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hans/ros2/task1/src/p_interfaces' with build type 'ament_cmake'
+[0.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hans/ros2/task1/src/p_interfaces'
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hans/ros2/task1/src/autonomous_rov' with build type 'ament_python'
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_rov', 'ament_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/ament_prefix_path.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hans/ros2/task1/src/p_action_example' with build type 'ament_python'
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_example', 'ament_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/ament_prefix_path.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/ament_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/ament_prefix_path.sh'
+[0.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hans/ros2/task1/src/p_action_interfaces' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hans/ros2/task1/src/p_action_interfaces'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hans/ros2/task1/src/ping_sonar_ros-master' with build type 'ament_python'
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('ping_sonar_ros', 'ament_prefix_path')
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/ament_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/ament_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/ament_prefix_path.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hans/ros2/task1/src/ttbot_square' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('ttbot_square', 'ament_prefix_path')
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/ament_prefix_path.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/ament_prefix_path.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/ament_prefix_path.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/hans/ros2/task1/src/p_interfaces -DCMAKE_INSTALL_PREFIX=/home/hans/ros2/task1/src/install/p_interfaces
+[0.810s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hans/ros2/task1/src/autonomous_rov'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.160s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hans/ros2/task1/src/p_action_example'
+[1.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/hans/ros2/task1/src/p_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/hans/ros2/task1/src/install/p_action_interfaces
+[1.513s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hans/ros2/task1/src/ping_sonar_ros-master'
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.870s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hans/ros2/task1/src/ttbot_square'
+[1.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/autonomous_rov': PYTHONPATH=/home/hans/ros2/task1/src/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autonomous_rov build --build-base /home/hans/ros2/task1/src/build/autonomous_rov/build install --record /home/hans/ros2/task1/src/build/autonomous_rov/install.log --single-version-externally-managed install_data
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/p_action_example': PYTHONPATH=/home/hans/ros2/task1/src/build/p_action_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_action_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_action_example build --build-base /home/hans/ros2/task1/src/build/p_action_example/build install --record /home/hans/ros2/task1/src/build/p_action_example/install.log --single-version-externally-managed install_data
+[2.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/ping_sonar_ros-master': PYTHONPATH=/home/hans/ros2/task1/src/build/ping_sonar_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ping_sonar_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ping_sonar_ros build --build-base /home/hans/ros2/task1/src/build/ping_sonar_ros/build install --record /home/hans/ros2/task1/src/build/ping_sonar_ros/install.log --single-version-externally-managed install_data
+[2.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/ttbot_square': PYTHONPATH=/home/hans/ros2/task1/src/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ttbot_square build --build-base /home/hans/ros2/task1/src/build/ttbot_square/build install --record /home/hans/ros2/task1/src/build/ttbot_square/install.log --single-version-externally-managed install_data
+[2.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/hans/ros2/task1/src/p_interfaces -DCMAKE_INSTALL_PREFIX=/home/hans/ros2/task1/src/install/p_interfaces
+[2.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/src/build/p_interfaces -- -j8 -l8
+[3.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/p_action_example' returned '0': PYTHONPATH=/home/hans/ros2/task1/src/build/p_action_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_action_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_action_example build --build-base /home/hans/ros2/task1/src/build/p_action_example/build install --record /home/hans/ros2/task1/src/build/p_action_example/install.log --single-version-externally-managed install_data
+[3.250s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example' for CMake module files
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example' for CMake config files
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example/lib'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example/bin'
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example/lib/pkgconfig/p_action_example.pc'
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example/lib/python3.10/site-packages'
+[3.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_example', 'pythonpath')
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/pythonpath.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/pythonpath.dsv'
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/hook/pythonpath.sh'
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_example/bin'
+[3.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_action_example)
+[3.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/package.ps1'
+[3.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/package.dsv'
+[3.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/package.sh'
+[3.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/package.bash'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_example/share/p_action_example/package.zsh'
+[3.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_action_example/share/colcon-core/packages/p_action_example)
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square' for CMake module files
+[3.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/ttbot_square' returned '0': PYTHONPATH=/home/hans/ros2/task1/src/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ttbot_square build --build-base /home/hans/ros2/task1/src/build/ttbot_square/build install --record /home/hans/ros2/task1/src/build/ttbot_square/install.log --single-version-externally-managed install_data
+[3.275s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square' for CMake config files
+[3.276s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square/lib'
+[3.276s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square/bin'
+[3.276s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square/lib/pkgconfig/ttbot_square.pc'
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages'
+[3.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('ttbot_square', 'pythonpath')
+[3.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/pythonpath.ps1'
+[3.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/pythonpath.dsv'
+[3.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/hook/pythonpath.sh'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ttbot_square/bin'
+[3.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ttbot_square)
+[3.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/package.ps1'
+[3.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/package.dsv'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/package.sh'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/package.bash'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square/package.zsh'
+[3.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/ttbot_square/share/colcon-core/packages/ttbot_square)
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov' for CMake module files
+[3.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/autonomous_rov' returned '0': PYTHONPATH=/home/hans/ros2/task1/src/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autonomous_rov build --build-base /home/hans/ros2/task1/src/build/autonomous_rov/build install --record /home/hans/ros2/task1/src/build/autonomous_rov/install.log --single-version-externally-managed install_data
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov' for CMake config files
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov/lib'
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov/bin'
+[3.289s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov/lib/pkgconfig/autonomous_rov.pc'
+[3.289s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov/lib/python3.10/site-packages'
+[3.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_rov', 'pythonpath')
+[3.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.ps1'
+[3.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.dsv'
+[3.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/hook/pythonpath.sh'
+[3.291s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/autonomous_rov/bin'
+[3.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_rov)
+[3.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/package.ps1'
+[3.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/package.dsv'
+[3.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/package.sh'
+[3.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/package.bash'
+[3.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/autonomous_rov/share/autonomous_rov/package.zsh'
+[3.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/autonomous_rov/share/colcon-core/packages/autonomous_rov)
+[3.296s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros' for CMake module files
+[3.298s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros' for CMake config files
+[3.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/ping_sonar_ros-master' returned '0': PYTHONPATH=/home/hans/ros2/task1/src/build/ping_sonar_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ping_sonar_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ping_sonar_ros build --build-base /home/hans/ros2/task1/src/build/ping_sonar_ros/build install --record /home/hans/ros2/task1/src/build/ping_sonar_ros/install.log --single-version-externally-managed install_data
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros/lib'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros/bin'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros/lib/pkgconfig/ping_sonar_ros.pc'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros/lib/python3.10/site-packages'
+[3.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('ping_sonar_ros', 'pythonpath')
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/pythonpath.ps1'
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/pythonpath.dsv'
+[3.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/hook/pythonpath.sh'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/ping_sonar_ros/bin'
+[3.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ping_sonar_ros)
+[3.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/package.ps1'
+[3.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/package.dsv'
+[3.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/package.sh'
+[3.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/package.bash'
+[3.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/ping_sonar_ros/share/ping_sonar_ros/package.zsh'
+[3.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/ping_sonar_ros/share/colcon-core/packages/ping_sonar_ros)
+[3.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/hans/ros2/task1/src/p_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/hans/ros2/task1/src/install/p_action_interfaces
+[3.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/src/build/p_action_interfaces -- -j8 -l8
+[5.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/src/build/p_interfaces -- -j8 -l8
+[5.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/hans/ros2/task1/src/build/p_interfaces
+[5.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_interfaces)
+[5.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/hans/ros2/task1/src/build/p_interfaces
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces' for CMake module files
+[5.171s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces' for CMake config files
+[5.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_interfaces', 'cmake_prefix_path')
+[5.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.ps1'
+[5.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.dsv'
+[5.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.sh'
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib'
+[5.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_interfaces', 'ld_library_path_lib')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.ps1'
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.sh'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/bin'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib/pkgconfig/p_interfaces.pc'
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib/python3.10/site-packages'
+[5.178s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/bin'
+[5.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.ps1'
+[5.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.sh'
+[5.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.bash'
+[5.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.zsh'
+[5.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_interfaces/share/colcon-core/packages/p_interfaces)
+[5.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_interfaces)
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces' for CMake module files
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces' for CMake config files
+[5.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_interfaces', 'cmake_prefix_path')
+[5.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.ps1'
+[5.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.dsv'
+[5.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/cmake_prefix_path.sh'
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib'
+[5.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_interfaces', 'ld_library_path_lib')
+[5.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.ps1'
+[5.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.dsv'
+[5.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/hook/ld_library_path_lib.sh'
+[5.195s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/bin'
+[5.196s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib/pkgconfig/p_interfaces.pc'
+[5.196s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/lib/python3.10/site-packages'
+[5.196s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_interfaces/bin'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.ps1'
+[5.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.dsv'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.sh'
+[5.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.bash'
+[5.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_interfaces/share/p_interfaces/package.zsh'
+[5.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_interfaces/share/colcon-core/packages/p_interfaces)
+[5.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hans/ros2/task1/src/p_controller' with build type 'ament_python'
+[5.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_controller', 'ament_prefix_path')
+[5.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/ament_prefix_path.ps1'
+[5.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/ament_prefix_path.dsv'
+[5.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/ament_prefix_path.sh'
+[5.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hans/ros2/task1/src/p_controller'
+[5.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/p_controller': AMENT_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hans/ros2/task1/src/install/p_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hans/ros2/task1/src/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_controller build --build-base /home/hans/ros2/task1/src/build/p_controller/build install --record /home/hans/ros2/task1/src/build/p_controller/install.log --single-version-externally-managed install_data
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller' for CMake module files
+[6.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/p_controller' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hans/ros2/task1/src/install/p_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hans/ros2/task1/src/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_controller build --build-base /home/hans/ros2/task1/src/build/p_controller/build install --record /home/hans/ros2/task1/src/build/p_controller/install.log --single-version-externally-managed install_data
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller' for CMake config files
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller/lib'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller/bin'
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller/lib/pkgconfig/p_controller.pc'
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages'
+[6.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_controller', 'pythonpath')
+[6.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/pythonpath.ps1'
+[6.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/pythonpath.dsv'
+[6.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/hook/pythonpath.sh'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_controller/bin'
+[6.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_controller)
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/package.ps1'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/package.dsv'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/package.sh'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/package.bash'
+[6.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_controller/share/p_controller/package.zsh'
+[6.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_controller/share/colcon-core/packages/p_controller)
+[8.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/src/build/p_action_interfaces -- -j8 -l8
+[8.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hans/ros2/task1/src/build/p_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/hans/ros2/task1/src/build/p_action_interfaces
+[8.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_action_interfaces)
+[8.280s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces' for CMake module files
+[8.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hans/ros2/task1/src/build/p_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/hans/ros2/task1/src/build/p_action_interfaces
+[8.281s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces' for CMake config files
+[8.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_interfaces', 'cmake_prefix_path')
+[8.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.ps1'
+[8.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.dsv'
+[8.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.sh'
+[8.283s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib'
+[8.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_interfaces', 'ld_library_path_lib')
+[8.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.ps1'
+[8.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.dsv'
+[8.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.sh'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/bin'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib/pkgconfig/p_action_interfaces.pc'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib/python3.10/site-packages'
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/bin'
+[8.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.ps1'
+[8.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.dsv'
+[8.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.sh'
+[8.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.bash'
+[8.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.zsh'
+[8.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_action_interfaces/share/colcon-core/packages/p_action_interfaces)
+[8.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p_action_interfaces)
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces' for CMake module files
+[8.290s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces' for CMake config files
+[8.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_interfaces', 'cmake_prefix_path')
+[8.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.ps1'
+[8.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.dsv'
+[8.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/cmake_prefix_path.sh'
+[8.292s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib'
+[8.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('p_action_interfaces', 'ld_library_path_lib')
+[8.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.ps1'
+[8.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.dsv'
+[8.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/hook/ld_library_path_lib.sh'
+[8.293s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/bin'
+[8.293s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib/pkgconfig/p_action_interfaces.pc'
+[8.294s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/lib/python3.10/site-packages'
+[8.294s] Level 1:colcon.colcon_core.environment:checking '/home/hans/ros2/task1/src/install/p_action_interfaces/bin'
+[8.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.ps1'
+[8.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.dsv'
+[8.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.sh'
+[8.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.bash'
+[8.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/hans/ros2/task1/src/install/p_action_interfaces/share/p_action_interfaces/package.zsh'
+[8.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hans/ros2/task1/src/install/p_action_interfaces/share/colcon-core/packages/p_action_interfaces)
+[8.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.297s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.316s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.316s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hans/ros2/task1/src/install/local_setup.ps1'
+[8.317s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hans/ros2/task1/src/install/_local_setup_util_ps1.py'
+[8.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hans/ros2/task1/src/install/setup.ps1'
+[8.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hans/ros2/task1/src/install/local_setup.sh'
+[8.325s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hans/ros2/task1/src/install/_local_setup_util_sh.py'
+[8.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hans/ros2/task1/src/install/setup.sh'
+[8.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hans/ros2/task1/src/install/local_setup.bash'
+[8.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hans/ros2/task1/src/install/setup.bash'
+[8.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hans/ros2/task1/src/install/local_setup.zsh'
+[8.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hans/ros2/task1/src/install/setup.zsh'

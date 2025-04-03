@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing ttbot_square.egg-info/PKG-INFO
+writing dependency_links to ttbot_square.egg-info/dependency_links.txt
+writing entry points to ttbot_square.egg-info/entry_points.txt
+writing requirements to ttbot_square.egg-info/requires.txt
+writing top-level names to ttbot_square.egg-info/top_level.txt
+reading manifest file 'ttbot_square.egg-info/SOURCES.txt'
+writing manifest file 'ttbot_square.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot-square.egg-link (link to .)
+Installing circ_controller script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+Installing square_abin script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+Installing square_controller_node script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+
+Installed /home/hans/ros2/task1/build/ttbot_square
+running symlink_data
+symbolically linking /home/hans/ros2/task1/build/ttbot_square/resource/ttbot_square -> /home/hans/ros2/task1/install/ttbot_square/share/ament_index/resource_index/packages
+symbolically linking /home/hans/ros2/task1/build/ttbot_square/package.xml -> /home/hans/ros2/task1/install/ttbot_square/share/ttbot_square

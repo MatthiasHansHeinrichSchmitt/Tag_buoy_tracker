@@ -1,0 +1,22 @@
+[1.251s] Invoking command in '/home/hans/ros2/task1/src/p_controller': PYTHONPATH=/home/hans/ros2/task1/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p_controller build --build-base /home/hans/ros2/task1/build/p_controller/build install --record /home/hans/ros2/task1/build/p_controller/install.log --single-version-externally-managed install_data
+[1.521s] running egg_info
+[1.522s] writing ../../build/p_controller/p_controller.egg-info/PKG-INFO
+[1.522s] writing dependency_links to ../../build/p_controller/p_controller.egg-info/dependency_links.txt
+[1.522s] writing entry points to ../../build/p_controller/p_controller.egg-info/entry_points.txt
+[1.522s] writing requirements to ../../build/p_controller/p_controller.egg-info/requires.txt
+[1.522s] writing top-level names to ../../build/p_controller/p_controller.egg-info/top_level.txt
+[1.524s] reading manifest file '../../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.525s] writing manifest file '../../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.525s] running build
+[1.525s] running build_py
+[1.525s] running install
+[1.526s] running install_lib
+[1.527s] running install_data
+[1.527s] running install_egg_info
+[1.529s] removing '/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages/p_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.529s] Copying ../../build/p_controller/p_controller.egg-info to /home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages/p_controller-0.0.0-py3.10.egg-info
+[1.530s] running install_scripts
+[1.555s] Installing circle_controller script to /home/hans/ros2/task1/install/p_controller/lib/p_controller
+[1.555s] Installing controller_sub script to /home/hans/ros2/task1/install/p_controller/lib/p_controller
+[1.556s] writing list of installed files to '/home/hans/ros2/task1/build/p_controller/install.log'
+[1.587s] Invoked command in '/home/hans/ros2/task1/src/p_controller' returned '0': PYTHONPATH=/home/hans/ros2/task1/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p_controller build --build-base /home/hans/ros2/task1/build/p_controller/build install --record /home/hans/ros2/task1/build/p_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,53 @@
+[2.158s] Invoking command in '/home/hans/ros2/task1/src/ttbot_square': PYTHONPATH=/home/hans/ros2/task1/src/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ttbot_square build --build-base /home/hans/ros2/task1/src/build/ttbot_square/build install --record /home/hans/ros2/task1/src/build/ttbot_square/install.log --single-version-externally-managed install_data
+[2.680s] running egg_info
+[2.684s] creating ../build/ttbot_square/ttbot_square.egg-info
+[2.684s] writing ../build/ttbot_square/ttbot_square.egg-info/PKG-INFO
+[2.685s] writing dependency_links to ../build/ttbot_square/ttbot_square.egg-info/dependency_links.txt
+[2.685s] writing entry points to ../build/ttbot_square/ttbot_square.egg-info/entry_points.txt
+[2.685s] writing requirements to ../build/ttbot_square/ttbot_square.egg-info/requires.txt
+[2.685s] writing top-level names to ../build/ttbot_square/ttbot_square.egg-info/top_level.txt
+[2.685s] writing manifest file '../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+[2.687s] reading manifest file '../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+[2.688s] writing manifest file '../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+[2.688s] running build
+[2.688s] running build_py
+[2.689s] creating /home/hans/ros2/task1/src/build/ttbot_square/build
+[2.689s] creating /home/hans/ros2/task1/src/build/ttbot_square/build/lib
+[2.689s] creating /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.689s] copying ttbot_square/square_controller.py -> /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.689s] copying ttbot_square/controller_sub.py -> /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.690s] copying ttbot_square/sq_cont2.py -> /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.690s] copying ttbot_square/__init__.py -> /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.690s] copying ttbot_square/circ_cont.py -> /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square
+[2.691s] running install
+[2.693s] running install_lib
+[2.694s] creating /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.694s] copying /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square/square_controller.py -> /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.695s] copying /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square/controller_sub.py -> /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.695s] copying /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square/sq_cont2.py -> /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.695s] copying /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square/__init__.py -> /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.695s] copying /home/hans/ros2/task1/src/build/ttbot_square/build/lib/ttbot_square/circ_cont.py -> /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[2.695s] byte-compiling /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/square_controller.py to square_controller.cpython-310.pyc
+[2.695s] byte-compiling /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/controller_sub.py to controller_sub.cpython-310.pyc
+[2.696s] byte-compiling /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/sq_cont2.py to sq_cont2.cpython-310.pyc
+[2.697s] byte-compiling /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/__init__.py to __init__.cpython-310.pyc
+[2.697s] byte-compiling /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/circ_cont.py to circ_cont.cpython-310.pyc
+[2.697s] running install_data
+[2.697s]   File "/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/circ_cont.py", line 37
+[2.697s]     def change_radius_callback(self,request,response)
+[2.697s]                                                      ^
+[2.698s] SyntaxError: expected ':'
+[2.698s] 
+[2.698s] creating /home/hans/ros2/task1/src/install/ttbot_square/share/ament_index
+[2.698s] creating /home/hans/ros2/task1/src/install/ttbot_square/share/ament_index/resource_index
+[2.699s] creating /home/hans/ros2/task1/src/install/ttbot_square/share/ament_index/resource_index/packages
+[2.699s] copying resource/ttbot_square -> /home/hans/ros2/task1/src/install/ttbot_square/share/ament_index/resource_index/packages
+[2.699s] copying package.xml -> /home/hans/ros2/task1/src/install/ttbot_square/share/ttbot_square
+[2.699s] running install_egg_info
+[2.700s] Copying ../build/ttbot_square/ttbot_square.egg-info to /home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages/ttbot_square-0.0.0-py3.10.egg-info
+[2.700s] running install_scripts
+[2.742s] Installing circle_controller script to /home/hans/ros2/task1/src/install/ttbot_square/lib/ttbot_square
+[2.742s] Installing square_abin script to /home/hans/ros2/task1/src/install/ttbot_square/lib/ttbot_square
+[2.742s] Installing square_controller_node script to /home/hans/ros2/task1/src/install/ttbot_square/lib/ttbot_square
+[2.742s] writing list of installed files to '/home/hans/ros2/task1/src/build/ttbot_square/install.log'
+[2.814s] Invoked command in '/home/hans/ros2/task1/src/ttbot_square' returned '0': PYTHONPATH=/home/hans/ros2/task1/src/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ttbot_square build --build-base /home/hans/ros2/task1/src/build/ttbot_square/build install --record /home/hans/ros2/task1/src/build/ttbot_square/install.log --single-version-externally-managed install_data

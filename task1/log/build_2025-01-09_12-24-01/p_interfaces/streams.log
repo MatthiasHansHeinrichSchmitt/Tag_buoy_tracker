@@ -1,0 +1,22 @@
+[0.038s] Invoking command in '/home/hans/ros2/task1/build/p_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/build/p_interfaces -- -j8 -l8
+[0.748s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.749s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.750s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.751s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.751s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Configuring incomplete, errors occurred!
+[0.752s] See also "/home/hans/ros2/task1/build/p_interfaces/CMakeFiles/CMakeOutput.log".
+[0.752s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.752s]   ament_package_xml() package name 'p_interfaces' in '/package.xml' does not
+[0.752s]   match current PROJECT_NAME 'p_interface'.  You must call project() with the
+[0.752s]   same package name before.
+[0.752s] Call Stack (most recent call first):
+[0.753s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.753s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.753s] 
+[0.753s] [0m
+[0.753s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[1.104s] Invoked command in '/home/hans/ros2/task1/build/p_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hans/ros2/task1/install/ttbot_square:/home/hans/ros2/task1/install/ping_sonar_ros:/home/hans/ros2/task1/install/p_controller:/home/hans/ros2/task1/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/hans/ros2/task1/build/p_interfaces -- -j8 -l8

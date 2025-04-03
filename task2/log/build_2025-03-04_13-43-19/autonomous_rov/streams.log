@@ -1,0 +1,61 @@
+[1.065s] Invoking command in '/home/hans/ros2/task2/src/autonomous_rov': PYTHONPATH=/home/hans/ros2/task2/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_rov build --build-base /home/hans/ros2/task2/build/autonomous_rov/build install --record /home/hans/ros2/task2/build/autonomous_rov/install.log --single-version-externally-managed install_data
+[1.371s] running egg_info
+[1.372s] creating ../../build/autonomous_rov/autonomous_rov.egg-info
+[1.372s] writing ../../build/autonomous_rov/autonomous_rov.egg-info/PKG-INFO
+[1.373s] writing dependency_links to ../../build/autonomous_rov/autonomous_rov.egg-info/dependency_links.txt
+[1.373s] writing entry points to ../../build/autonomous_rov/autonomous_rov.egg-info/entry_points.txt
+[1.373s] writing requirements to ../../build/autonomous_rov/autonomous_rov.egg-info/requires.txt
+[1.373s] writing top-level names to ../../build/autonomous_rov/autonomous_rov.egg-info/top_level.txt
+[1.373s] writing manifest file '../../build/autonomous_rov/autonomous_rov.egg-info/SOURCES.txt'
+[1.375s] reading manifest file '../../build/autonomous_rov/autonomous_rov.egg-info/SOURCES.txt'
+[1.375s] writing manifest file '../../build/autonomous_rov/autonomous_rov.egg-info/SOURCES.txt'
+[1.376s] running build
+[1.376s] running build_py
+[1.376s] creating /home/hans/ros2/task2/build/autonomous_rov/build
+[1.376s] creating /home/hans/ros2/task2/build/autonomous_rov/build/lib
+[1.376s] creating /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.376s] copying autonomous_rov/camera_parameters.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] copying autonomous_rov/listenerMIR.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] copying autonomous_rov/image_processing_tracker.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] copying autonomous_rov/__init__.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] copying autonomous_rov/video.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] copying autonomous_rov/pinger_node.py -> /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov
+[1.377s] running install
+[1.378s] running install_lib
+[1.379s] creating /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.379s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/camera_parameters.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.379s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/listenerMIR.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.379s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/image_processing_tracker.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.379s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/__init__.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.380s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/video.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.380s] copying /home/hans/ros2/task2/build/autonomous_rov/build/lib/autonomous_rov/pinger_node.py -> /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov
+[1.380s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/camera_parameters.py to camera_parameters.cpython-310.pyc
+[1.381s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/listenerMIR.py to listenerMIR.cpython-310.pyc
+[1.385s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/image_processing_tracker.py to image_processing_tracker.cpython-310.pyc
+[1.386s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/__init__.py to __init__.cpython-310.pyc
+[1.386s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/video.py to video.cpython-310.pyc
+[1.387s] byte-compiling /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov/pinger_node.py to pinger_node.cpython-310.pyc
+[1.388s] running install_data
+[1.388s] creating /home/hans/ros2/task2/install/autonomous_rov/share/ament_index
+[1.389s] creating /home/hans/ros2/task2/install/autonomous_rov/share/ament_index/resource_index
+[1.389s] creating /home/hans/ros2/task2/install/autonomous_rov/share/ament_index/resource_index/packages
+[1.389s] copying resource/autonomous_rov -> /home/hans/ros2/task2/install/autonomous_rov/share/ament_index/resource_index/packages
+[1.390s] copying package.xml -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov
+[1.390s] creating /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/launch
+[1.390s] copying launch/run_mavros.launch -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/launch
+[1.390s] copying launch/run_video.launch -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/launch
+[1.391s] copying launch/run_listener_MIR.launch -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/launch
+[1.391s] copying launch/run_gamepad.launch -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/launch
+[1.391s] creating /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/config
+[1.391s] copying config/xbox.config.yaml -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/config
+[1.391s] creating /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/lib
+[1.391s] copying setup.py -> /home/hans/ros2/task2/install/autonomous_rov/share/autonomous_rov/lib
+[1.391s] running install_egg_info
+[1.393s] Copying ../../build/autonomous_rov/autonomous_rov.egg-info to /home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages/autonomous_rov-0.0.0-py3.10.egg-info
+[1.394s] running install_scripts
+[1.418s] Installing image_processing_tracker script to /home/hans/ros2/task2/install/autonomous_rov/lib/autonomous_rov
+[1.419s] Installing listenerMIR script to /home/hans/ros2/task2/install/autonomous_rov/lib/autonomous_rov
+[1.419s] Installing pinger_node script to /home/hans/ros2/task2/install/autonomous_rov/lib/autonomous_rov
+[1.419s] Installing video script to /home/hans/ros2/task2/install/autonomous_rov/lib/autonomous_rov
+[1.419s] writing list of installed files to '/home/hans/ros2/task2/build/autonomous_rov/install.log'
+[1.451s] Invoked command in '/home/hans/ros2/task2/src/autonomous_rov' returned '0': PYTHONPATH=/home/hans/ros2/task2/build/autonomous_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task2/install/autonomous_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_rov build --build-base /home/hans/ros2/task2/build/autonomous_rov/build install --record /home/hans/ros2/task2/build/autonomous_rov/install.log --single-version-externally-managed install_data

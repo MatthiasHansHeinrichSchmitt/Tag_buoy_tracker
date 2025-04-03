@@ -1,0 +1,6 @@
+{
+  "package_name": "p_interfaces",
+  "non_idl_tuples": [
+    "/home/hans/ros2/task1/src/p_interfaces:srv/ChangeRadius.srv"
+  ]
+}

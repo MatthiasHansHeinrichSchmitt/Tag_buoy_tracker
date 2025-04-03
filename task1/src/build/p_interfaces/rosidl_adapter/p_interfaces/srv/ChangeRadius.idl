@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from p_interfaces/srv/ChangeRadius.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module p_interfaces {
+  module srv {
+    struct ChangeRadius_Request {
+      int64 radius;
+    };
+    struct ChangeRadius_Response {
+      boolean radius_changed;
+
+      geometry_msgs::msg::Vector3 linear_velocity;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+[console_scripts]
+circle_controller = ttbot_square.circ_cont:main
+square_abin = ttbot_square.sq_cont2:main
+square_controller_node = ttbot_square.square_controller:main
+

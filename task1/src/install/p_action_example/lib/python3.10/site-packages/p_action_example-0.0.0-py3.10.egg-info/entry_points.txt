@@ -1,0 +1,3 @@
+[console_scripts]
+p_action_server = p_action_example.p_action_server:main
+

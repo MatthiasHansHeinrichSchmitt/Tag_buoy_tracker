@@ -1,0 +1,4 @@
+[console_scripts]
+circle_controller = p_controller.circle_controller:main
+controller_sub = p_controller.controller_subscriber:main
+

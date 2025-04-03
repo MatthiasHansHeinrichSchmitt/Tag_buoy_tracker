@@ -1,0 +1,9 @@
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/uninstall.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/p_interface_uninstall.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/test.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/edit_cache.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/rebuild_cache.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/list_install_components.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/install.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/install/local.dir
+/home/hans/ros2/task1/build/p_interface/CMakeFiles/install/strip.dir

@@ -1,0 +1,41 @@
+[1.252s] Invoking command in '/home/hans/ros2/task1/src/p_controller': AMENT_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hans/ros2/task1/src/install/p_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hans/ros2/task1/src/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_controller build --build-base /home/hans/ros2/task1/src/build/p_controller/build install --record /home/hans/ros2/task1/src/build/p_controller/install.log --single-version-externally-managed install_data
+[1.616s] running egg_info
+[1.617s] creating ../build/p_controller/p_controller.egg-info
+[1.617s] writing ../build/p_controller/p_controller.egg-info/PKG-INFO
+[1.618s] writing dependency_links to ../build/p_controller/p_controller.egg-info/dependency_links.txt
+[1.618s] writing entry points to ../build/p_controller/p_controller.egg-info/entry_points.txt
+[1.618s] writing requirements to ../build/p_controller/p_controller.egg-info/requires.txt
+[1.618s] writing top-level names to ../build/p_controller/p_controller.egg-info/top_level.txt
+[1.618s] writing manifest file '../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.621s] reading manifest file '../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.622s] writing manifest file '../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.622s] running build
+[1.622s] running build_py
+[1.623s] creating /home/hans/ros2/task1/src/build/p_controller/build
+[1.623s] creating /home/hans/ros2/task1/src/build/p_controller/build/lib
+[1.623s] creating /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller
+[1.623s] copying p_controller/controller_subscriber.py -> /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller
+[1.623s] copying p_controller/circle_controller.py -> /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller
+[1.623s] copying p_controller/__init__.py -> /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller
+[1.624s] running install
+[1.624s] running install_lib
+[1.625s] creating /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller
+[1.625s] copying /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller/controller_subscriber.py -> /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller
+[1.626s] copying /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller/circle_controller.py -> /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller
+[1.626s] copying /home/hans/ros2/task1/src/build/p_controller/build/lib/p_controller/__init__.py -> /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller
+[1.627s] byte-compiling /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller/controller_subscriber.py to controller_subscriber.cpython-310.pyc
+[1.628s] byte-compiling /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller/circle_controller.py to circle_controller.cpython-310.pyc
+[1.629s] byte-compiling /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller/__init__.py to __init__.cpython-310.pyc
+[1.629s] running install_data
+[1.629s] creating /home/hans/ros2/task1/src/install/p_controller/share/ament_index
+[1.629s] creating /home/hans/ros2/task1/src/install/p_controller/share/ament_index/resource_index
+[1.629s] creating /home/hans/ros2/task1/src/install/p_controller/share/ament_index/resource_index/packages
+[1.630s] copying resource/p_controller -> /home/hans/ros2/task1/src/install/p_controller/share/ament_index/resource_index/packages
+[1.630s] copying package.xml -> /home/hans/ros2/task1/src/install/p_controller/share/p_controller
+[1.630s] running install_egg_info
+[1.633s] Copying ../build/p_controller/p_controller.egg-info to /home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages/p_controller-0.0.0-py3.10.egg-info
+[1.634s] running install_scripts
+[1.665s] Installing circle_controller script to /home/hans/ros2/task1/src/install/p_controller/lib/p_controller
+[1.666s] Installing controller_sub script to /home/hans/ros2/task1/src/install/p_controller/lib/p_controller
+[1.666s] writing list of installed files to '/home/hans/ros2/task1/src/build/p_controller/install.log'
+[1.702s] Invoked command in '/home/hans/ros2/task1/src/p_controller' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2/task1/src/install/p_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/hans/ros2/task1/src/install/p_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hans/ros2/task1/src/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/src/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p_controller build --build-base /home/hans/ros2/task1/src/build/p_controller/build install --record /home/hans/ros2/task1/src/build/p_controller/install.log --single-version-externally-managed install_data

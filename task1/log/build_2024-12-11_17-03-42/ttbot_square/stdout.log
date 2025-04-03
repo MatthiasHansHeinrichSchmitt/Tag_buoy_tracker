@@ -1,0 +1,35 @@
+running develop
+Removing /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot-square.egg-link (link to .)
+running egg_info
+writing ../../build/ttbot_square/ttbot_square.egg-info/PKG-INFO
+writing dependency_links to ../../build/ttbot_square/ttbot_square.egg-info/dependency_links.txt
+writing entry points to ../../build/ttbot_square/ttbot_square.egg-info/entry_points.txt
+writing requirements to ../../build/ttbot_square/ttbot_square.egg-info/requires.txt
+writing top-level names to ../../build/ttbot_square/ttbot_square.egg-info/top_level.txt
+reading manifest file '../../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+writing manifest file '../../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/square_controller.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/controller_sub.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/sq_cont2.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/__init__.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/circ_cont.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/square_controller.py to square_controller.cpython-310.pyc
+byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/controller_sub.py to controller_sub.cpython-310.pyc
+byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/sq_cont2.py to sq_cont2.cpython-310.pyc
+byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/circ_cont.py to circ_cont.cpython-310.pyc
+running install_data
+copying resource/ttbot_square -> /home/hans/ros2/task1/install/ttbot_square/share/ament_index/resource_index/packages
+copying package.xml -> /home/hans/ros2/task1/install/ttbot_square/share/ttbot_square
+running install_egg_info
+Copying ../../build/ttbot_square/ttbot_square.egg-info to /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square-0.0.0-py3.10.egg-info
+running install_scripts
+Installing circle_controller script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+Installing square_abin script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+Installing square_controller_node script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+writing list of installed files to '/home/hans/ros2/task1/build/ttbot_square/install.log'

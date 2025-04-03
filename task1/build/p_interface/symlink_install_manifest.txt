@@ -1,0 +1,15 @@
+/home/hans/ros2/task1/install/p_interface/share/ament_index/resource_index/package_run_dependencies/p_interface
+/home/hans/ros2/task1/install/p_interface/share/ament_index/resource_index/parent_prefix_path/p_interface
+/home/hans/ros2/task1/install/p_interface/share/p_interface/environment/ament_prefix_path.sh
+/home/hans/ros2/task1/install/p_interface/share/p_interface/environment/ament_prefix_path.dsv
+/home/hans/ros2/task1/install/p_interface/share/p_interface/environment/path.sh
+/home/hans/ros2/task1/install/p_interface/share/p_interface/environment/path.dsv
+/home/hans/ros2/task1/install/p_interface/share/p_interface/local_setup.bash
+/home/hans/ros2/task1/install/p_interface/share/p_interface/local_setup.sh
+/home/hans/ros2/task1/install/p_interface/share/p_interface/local_setup.zsh
+/home/hans/ros2/task1/install/p_interface/share/p_interface/local_setup.dsv
+/home/hans/ros2/task1/install/p_interface/share/p_interface/package.dsv
+/home/hans/ros2/task1/install/p_interface/share/ament_index/resource_index/packages/p_interface
+/home/hans/ros2/task1/install/p_interface/share/p_interface/cmake/p_interfaceConfig.cmake
+/home/hans/ros2/task1/install/p_interface/share/p_interface/cmake/p_interfaceConfig-version.cmake
+/home/hans/ros2/task1/install/p_interface/share/p_interface/package.xml

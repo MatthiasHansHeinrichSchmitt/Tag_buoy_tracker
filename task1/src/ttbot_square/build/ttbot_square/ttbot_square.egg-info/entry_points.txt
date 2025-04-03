@@ -1,0 +1,3 @@
+[console_scripts]
+square_controller_node = ttbot_square.square_controller:main
+

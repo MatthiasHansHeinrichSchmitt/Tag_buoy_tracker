@@ -1,0 +1,22 @@
+[0.839s] Invoking command in '/home/hans/ros2/task1/src/p_controller': CMAKE_PREFIX_PATH=/home/hans/ros2/task1/install/p_interfaces:/home/hans/ros2/task1/src/install/p_interfaces:/home/hans/ros2/task1/src/install/p_action_interfaces:/home/hans/ros2/task1/install/p_action_interfaces:/home/hans/ros2/task1/install/p_interface LD_LIBRARY_PATH=/home/hans/ros2/task1/install/p_interfaces/lib:/home/hans/ros2/task1/src/install/p_interfaces/lib:/home/hans/ros2/task1/src/install/p_action_interfaces/lib:/home/hans/ros2/task1/install/p_action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/hans/ros2/task1/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p_controller build --build-base /home/hans/ros2/task1/build/p_controller/build install --record /home/hans/ros2/task1/build/p_controller/install.log --single-version-externally-managed install_data
+[1.156s] running egg_info
+[1.157s] writing ../../build/p_controller/p_controller.egg-info/PKG-INFO
+[1.157s] writing dependency_links to ../../build/p_controller/p_controller.egg-info/dependency_links.txt
+[1.157s] writing entry points to ../../build/p_controller/p_controller.egg-info/entry_points.txt
+[1.157s] writing requirements to ../../build/p_controller/p_controller.egg-info/requires.txt
+[1.158s] writing top-level names to ../../build/p_controller/p_controller.egg-info/top_level.txt
+[1.161s] reading manifest file '../../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../../build/p_controller/p_controller.egg-info/SOURCES.txt'
+[1.162s] running build
+[1.162s] running build_py
+[1.162s] running install
+[1.162s] running install_lib
+[1.164s] running install_data
+[1.164s] running install_egg_info
+[1.167s] removing '/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages/p_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.167s] Copying ../../build/p_controller/p_controller.egg-info to /home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages/p_controller-0.0.0-py3.10.egg-info
+[1.168s] running install_scripts
+[1.199s] Installing circle_controller script to /home/hans/ros2/task1/install/p_controller/lib/p_controller
+[1.200s] Installing controller_sub script to /home/hans/ros2/task1/install/p_controller/lib/p_controller
+[1.200s] writing list of installed files to '/home/hans/ros2/task1/build/p_controller/install.log'
+[1.255s] Invoked command in '/home/hans/ros2/task1/src/p_controller' returned '0': CMAKE_PREFIX_PATH=/home/hans/ros2/task1/install/p_interfaces:/home/hans/ros2/task1/src/install/p_interfaces:/home/hans/ros2/task1/src/install/p_action_interfaces:/home/hans/ros2/task1/install/p_action_interfaces:/home/hans/ros2/task1/install/p_interface LD_LIBRARY_PATH=/home/hans/ros2/task1/install/p_interfaces/lib:/home/hans/ros2/task1/src/install/p_interfaces/lib:/home/hans/ros2/task1/src/install/p_action_interfaces/lib:/home/hans/ros2/task1/install/p_action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/hans/ros2/task1/build/p_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/p_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p_controller build --build-base /home/hans/ros2/task1/build/p_controller/build install --record /home/hans/ros2/task1/build/p_controller/install.log --single-version-externally-managed install_data

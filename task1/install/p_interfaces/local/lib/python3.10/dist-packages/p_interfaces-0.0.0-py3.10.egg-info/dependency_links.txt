@@ -1,0 +1,1 @@
+/home/hans/ros2/task1/build/p_interfaces/ament_cmake_python/p_interfaces/p_interfaces.egg-info/dependency_links.txt

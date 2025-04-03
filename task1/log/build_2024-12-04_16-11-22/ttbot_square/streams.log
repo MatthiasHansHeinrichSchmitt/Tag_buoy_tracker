@@ -1,0 +1,26 @@
+[0.693s] Invoking command in '/home/hans/ros2/task1/src/ttbot_square': PYTHONPATH=/home/hans/ros2/task1/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ttbot_square build --build-base /home/hans/ros2/task1/build/ttbot_square/build install --record /home/hans/ros2/task1/build/ttbot_square/install.log --single-version-externally-managed install_data
+[0.954s] running egg_info
+[0.956s] writing ../../build/ttbot_square/ttbot_square.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/ttbot_square/ttbot_square.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/ttbot_square/ttbot_square.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/ttbot_square/ttbot_square.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/ttbot_square/ttbot_square.egg-info/top_level.txt
+[0.960s] reading manifest file '../../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+[0.961s] writing manifest file '../../build/ttbot_square/ttbot_square.egg-info/SOURCES.txt'
+[0.961s] running build
+[0.961s] running build_py
+[0.961s] copying ttbot_square/square_controller.py -> /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square
+[0.962s] running install
+[0.963s] running install_lib
+[0.964s] copying /home/hans/ros2/task1/build/ttbot_square/build/lib/ttbot_square/square_controller.py -> /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square
+[0.965s] byte-compiling /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square/square_controller.py to square_controller.cpython-310.pyc
+[0.965s] Sorry: IndentationError: expected an indented block after function definition on line 32 (square_controller.py, line 33)
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.968s] removing '/home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square-0.0.0-py3.10.egg-info' (and everything under it)
+[0.968s] Copying ../../build/ttbot_square/ttbot_square.egg-info to /home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages/ttbot_square-0.0.0-py3.10.egg-info
+[0.970s] running install_scripts
+[0.994s] Installing square_abin script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+[0.994s] Installing square_controller_node script to /home/hans/ros2/task1/install/ttbot_square/lib/ttbot_square
+[0.995s] writing list of installed files to '/home/hans/ros2/task1/build/ttbot_square/install.log'
+[1.021s] Invoked command in '/home/hans/ros2/task1/src/ttbot_square' returned '0': PYTHONPATH=/home/hans/ros2/task1/build/ttbot_square/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/task1/install/ttbot_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ttbot_square build --build-base /home/hans/ros2/task1/build/ttbot_square/build install --record /home/hans/ros2/task1/build/ttbot_square/install.log --single-version-externally-managed install_data
