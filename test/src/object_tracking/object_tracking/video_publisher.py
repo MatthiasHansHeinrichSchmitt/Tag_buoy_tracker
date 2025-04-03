@@ -12,7 +12,7 @@ class VideoPublisher(Node):
         self.publisher = self.create_publisher(Image, 'video_topic', 10)
         
         # OpenCV video capture
-        self.cap = cv2.VideoCapture("/home/hans/Downloads/tags1.mp4")#0) #select input
+        self.cap = cv2.VideoCapture("/home/hans/Downloads/test1.mp4")#0) #select input
         self.bridge = CvBridge()
 
         # Timer to publish frames

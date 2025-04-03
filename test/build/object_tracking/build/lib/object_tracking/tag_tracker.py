@@ -24,8 +24,11 @@ class AprilTagTracker(Node):
         self.bridge = CvBridge()
         
         # Initialize AprilTag detector with multiple families
-        options = apriltag.DetectorOptions(families="tag36h11")
+        options = apriltag.DetectorOptions(families="tag36h11,tag25h9,tag16h5,tagStandard41h12")
         self.detector = apriltag.Detector(options)
+
+        # Flag for publishing detection message
+        self.tag_detected = False
 
     def image_callback(self, msg):
         self.get_logger().info('Receiving video frame')
@@ -40,7 +43,16 @@ class AprilTagTracker(Node):
 
         # Detect AprilTags
         detections = self.detector.detect(gray)
+        
+        # If a tag is detected, update flag and publish a message
+        if detections:
+            if not self.tag_detected:
+                self.get_logger().info("At least one tag detected!")
+                self.tag_detected = True
+                # Here you can publish a custom message or trigger a specific event
+                # For now, we'll just log it for simplicity.
 
+        # Draw the detected tags on top of the original frame
         for detection in detections:
             # Draw bounding box around detected tag
             for i in range(4):
@@ -53,9 +65,9 @@ class AprilTagTracker(Node):
             cv2.putText(frame, str(detection.tag_id), (cX - 10, cY - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
-        # Display the processed frame in a window
+        # Display the processed frame with tracked edges
         cv2.imshow("AprilTag Tracker", frame)
-        cv2.waitKey(1)  # Needed for OpenCV to update the window
+        cv2.waitKey(1)  # This is required for OpenCV to update the window
 
         # Convert the processed frame back to ROS message and publish
         tagged_frame_msg = self.bridge.cv2_to_imgmsg(frame, "bgr8")
@@ -75,4 +87,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
- 

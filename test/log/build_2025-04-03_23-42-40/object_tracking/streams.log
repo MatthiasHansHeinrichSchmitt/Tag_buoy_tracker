@@ -1,0 +1,29 @@
+[0.736s] Invoking command in '/home/hans/ros2/test/src/object_tracking': PYTHONPATH=/home/hans/ros2/test/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/hans/ros2/test/build/object_tracking/build install --record /home/hans/ros2/test/build/object_tracking/install.log --single-version-externally-managed install_data
+[1.013s] running egg_info
+[1.014s] writing ../../build/object_tracking/object_tracking.egg-info/PKG-INFO
+[1.014s] writing dependency_links to ../../build/object_tracking/object_tracking.egg-info/dependency_links.txt
+[1.014s] writing entry points to ../../build/object_tracking/object_tracking.egg-info/entry_points.txt
+[1.014s] writing requirements to ../../build/object_tracking/object_tracking.egg-info/requires.txt
+[1.014s] writing top-level names to ../../build/object_tracking/object_tracking.egg-info/top_level.txt
+[1.016s] reading manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+[1.017s] writing manifest file '../../build/object_tracking/object_tracking.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.017s] copying object_tracking/video_publisher.py -> /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+[1.018s] copying object_tracking/tag_tracker.py -> /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking
+[1.018s] running install
+[1.018s] running install_lib
+[1.019s] copying /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking/video_publisher.py -> /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+[1.019s] copying /home/hans/ros2/test/build/object_tracking/build/lib/object_tracking/tag_tracker.py -> /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking
+[1.020s] byte-compiling /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking/video_publisher.py to video_publisher.cpython-310.pyc
+[1.020s] byte-compiling /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking/tag_tracker.py to tag_tracker.cpython-310.pyc
+[1.021s] running install_data
+[1.021s] running install_egg_info
+[1.024s] removing '/home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking-0.0.0-py3.10.egg-info' (and everything under it)
+[1.024s] Copying ../../build/object_tracking/object_tracking.egg-info to /home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages/object_tracking-0.0.0-py3.10.egg-info
+[1.025s] running install_scripts
+[1.051s] Installing buoy_tracker script to /home/hans/ros2/test/install/object_tracking/lib/object_tracking
+[1.051s] Installing tag_tracker script to /home/hans/ros2/test/install/object_tracking/lib/object_tracking
+[1.051s] Installing video_publisher script to /home/hans/ros2/test/install/object_tracking/lib/object_tracking
+[1.051s] writing list of installed files to '/home/hans/ros2/test/build/object_tracking/install.log'
+[1.078s] Invoked command in '/home/hans/ros2/test/src/object_tracking' returned '0': PYTHONPATH=/home/hans/ros2/test/build/object_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hans/ros2/test/install/object_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_tracking build --build-base /home/hans/ros2/test/build/object_tracking/build install --record /home/hans/ros2/test/build/object_tracking/install.log --single-version-externally-managed install_data
